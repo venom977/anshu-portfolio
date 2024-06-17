@@ -124,11 +124,12 @@
                 @for (item of cardsContent; track $index) {
                 <div class="col-md-4 col-4">
                     <div class="what-we-do-card">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path
                                 d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z">
                             </path>
-                        </svg>
+                        </svg> -->
+                        <!-- <img style="width: 100%;" [src]="item.src" alt=""> -->
                         <div class="what-we-do-card-content">
                             <p class="what-we-do-card-title">Card Title</p>
                             <p class="what-we-do-card-description">
@@ -213,39 +214,10 @@
                     </div>
                 </div>
             </div>
-            <div style="width: 55rem;margin: 75px 0 0 15rem;">
-                <div id="carouselExample" class="carousel slide">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="
-                        https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg?w=1060&t=st=1718521643~exp=1718522243~hmac=04e40ac03caacc2cca6eb614563beb29276838e39b938626517a3e0195a66a9b
-                        " class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://img.freepik.com/free-photo/animal-elephant-mammal-nature-wild-patterns-decoration-multi-colored-generative-ai_188544-9609.jpg?w=1060&t=st=1718521746~exp=1718522346~hmac=9d25c34f2ec60588ed18b90c2754c168d648582eb488715147bf5d2f1df18f15"
-                                class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://img.freepik.com/free-photo/spools-multi-colored-thread-textile-material-generated-by-ai_188544-19539.jpg?w=1060&t=st=1718521762~exp=1718522362~hmac=ca760d13af05e40ccbd6048e3ac800d4e25dad105af7d171ae34566610311fb3"
-                                class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+            <div >
+                <app-carousel />
             </div>
         </section>
 
     </article>
 </main>
-
-<!-- <img style="width: 100px; height: 100px;" src="
-https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg?w=1060&t=st=1718521643~exp=1718522243~hmac=04e40ac03caacc2cca6eb614563beb29276838e39b938626517a3e0195a66a9b" alt="" srcset=""> -->
