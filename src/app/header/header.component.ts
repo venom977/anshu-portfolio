@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ToggleBtnComponent } from '../common/components/toggle-btn.component';
 
 @Component({
@@ -8,4 +8,6 @@ import { ToggleBtnComponent } from '../common/components/toggle-btn.component';
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
-export class HeaderComponent { }
+export class HeaderComponent implements OnInit {
+  ngOnInit(): void { }
+}

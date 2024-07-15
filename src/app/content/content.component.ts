@@ -23,4 +23,5 @@ export class ContentComponent {
       src: "https://img.freepik.com/premium-photo/avalanche-cryptocurrency-consensus-protocol-mobile-layout-wi-creative-idea-app-background-designs_1020495-314552.jpg?w=1380"
     }
   ];
+
 }
